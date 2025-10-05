@@ -6,13 +6,13 @@ This repository contains my personal Solidity practice and smart contract experi
 
 ## 🧠 What I'm learning
 
-✅ Variables, data types (uint, address, etc.)  
-✅ Functions and visibility (public, private, internal)  
+✅ Variables, data types (`uint`, `address`, etc.)  
+✅ Functions and visibility (`public`, `private`, `internal`)  
 ✅ Mappings, arrays, structs  
-✅ Modifiers and require statements  
-✅ Events and emit  
+✅ Modifiers and `require` statements  
+✅ Events and `emit`  
 ✅ Inheritance and interfaces  
-✅ Constructor, fallback, receive  
+✅ Constructor, `fallback`, `receive`  
 ✅ Gas optimization basics  
 ✅ Contract deployment (Remix & Hardhat)
 
@@ -21,27 +21,24 @@ This repository contains my personal Solidity practice and smart contract experi
 ## 🚀 How to run
 
 ### Remix (browser-based):
-
-1. Go to [remix.ethereum.org](https://remix.ethereum.org)  
-2. Create or open `.sol` files  
+1. Go to [remix.ethereum.org](https://remix.ethereum.org)
+2. Create or open `.sol` files
 3. Compile → Deploy → Interact via the Remix interface
 
 ---
 
-📚 Tools & Resources
+## 📚 Tools & Resources
 
-Remix IDE
+- Remix IDE  
+- [Solidity Docs](https://docs.soliditylang.org)  
+- Hardhat / Foundry  
+- YouTube tutorials  
+- ChatGPT 🤖  
 
-Solidity Docs
+---
 
-Hardhat / Foundry
+## ✍️ Author
 
-YouTube tutorials
-
-ChatGPT 🤖
-
-✍️ Author
-
-- GitHub: [melkoronchain](https://github.com/melkoronchain)
-- X/Twitter: [melkoronchain](https://x.com/MelkorOnChain)
+- GitHub: [melkoronchain](https://github.com/melkoronchain)  
+- X/Twitter: [melkoronchain](https://x.com/melkoronchain)  
 - Telegram: [@melkoronchain](https://t.me/melkoronchain)
