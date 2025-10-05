@@ -43,4 +43,5 @@ ChatGPT 🤖
 ✍️ Author
 
 - GitHub: [melkoronchain](https://github.com/melkoronchain)
+- X/Twitter: [melkoronchain] (https://x.com/MelkorOnChain)
 - Telegram: [@melkoronchain](https://t.me/melkoronchain)
