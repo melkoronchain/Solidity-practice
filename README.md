@@ -1,50 +1,47 @@
-# Solidity Practice 👨‍💻
+# Solidity Practice ⚙️
 
-This repository contains my first steps in **Solidity development**.  
-I’m learning how to write, deploy and test smart contracts using [Remix IDE](https://remix.ethereum.org/).
+This repository contains my personal Solidity practice and smart contract experiments.
 
 ---
 
-## 📌 My First Contract
+## 🧠 What I'm learning
 
-This is a very simple contract that helped me understand the basics of Solidity:
+✅ Variables, data types (uint, address, etc.)  
+✅ Functions and visibility (public, private, internal)  
+✅ Mappings, arrays, structs  
+✅ Modifiers and require statements  
+✅ Events and emit  
+✅ Inheritance and interfaces  
+✅ Constructor, fallback, receive  
+✅ Gas optimization basics  
+✅ Contract deployment (Remix & Hardhat)
 
-- How to declare a contract and variables  
-- How to use `mapping` to store data  
-- How to accept payments with `payable`  
-- How to restrict access with `require`  
+---
 
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.25;
+## 🚀 How to run
 
-contract MyFirstContract {
-    address public owner;
-    mapping(address => uint256) public payments;
+### Remix (browser-based):
 
-    constructor() {
-        owner = msg.sender;
-    }
+1. Go to [remix.ethereum.org](https://remix.ethereum.org)  
+2. Create or open `.sol` files  
+3. Compile → Deploy → Interact via the Remix interface
 
-    function payForItem() public payable {
-        payments[msg.sender] += msg.value;
-    }
+---
 
-    function withdrawAll() public {
-        require(msg.sender == owner, "Not the owner");
-        address payable _to = payable(owner);
-        _to.transfer(address(this).balance);
-    }
-}
-```
+📚 Tools & Resources
 
-  What I Learned
-- How the `constructor` sets the contract owner
-- How `msg.sender` and `msg.value` work
-- How to use `mapping` to track payments
-- How to restrict access with `require`
-- How to transfer Ether from the contract to the owner
+Remix IDE
 
+Solidity Docs
 
-📝 License  
-This project is licensed under the MIT License.
+Hardhat / Foundry
+
+YouTube tutorials
+
+ChatGPT 🤖
+
+✍️ Author
+
+GitHub: melkoronchain
+
+Telegram: @melkoronchain
